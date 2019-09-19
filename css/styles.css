@@ -1,7 +1,10 @@
 body{
-    background-color: red;
+    background-color: rosybrown;
+    font-size: 70px;
 }
 
 #bad{
     font-size: 700px;
+    text-align: center;
+    color: red;
 }
