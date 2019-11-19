@@ -1,54 +1,188 @@
 body{
-    background-color: black;
-    color: white;
-    font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
-    font-size: 25px;
-  }
+  font-family: 'Nunito', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#title{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+#description{
+  font-size: 35px;
+  text-align: center;
+  color: salmon;
+}
+
+#mainheader{
+  display: flex;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.topLinks{
+  color: white;
+  text-decoration: none;
+  font-size: 22.5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  opacity: 0.65;
   
-  .buttons{
-    background-color: blue;
-    padding: 30px;
-    margin-bottom: 20px;
-    border: 3px solid green;
-    border-radius: 25px;
-    
-  }
+  transition: 0.5s;
+  background-color: black;
+}
+
+
+.rightlinks{
+  color: white;
+  text-decoration: none;
+  font-size: 22.5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  opacity: 0.65;
+  transition: 0.5s;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  text-align: right;
+  background-color: black;
+}
+
+.topLinks:hover{
+  opacity: 1;
+  background-color: darkslategrey;
+  color: darksalmon;
+}
+
+.rightlinks:hover{
+  opacity: 1;
+  background-color: darkslategrey;
+  color: darksalmon;
+}
+
+#box{
+  font-size: 22.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 110px;
+}
+
+#leftheader{
+  border-right: 3px solid salmon;
+  height: 35px;
+  padding-right: 30px;
+}
+
+#rightheader{
+  border-left: 3px solid salmon;
+  height: 35px;
+  padding-left: 30px;
+}
+
+#image{
+ width: 1179px;
+ height: 500px;
+ margin-bottom: 0;
+ border-top-left-radius: 70px;
+ border-top-right-radius: 70px;
+}
+
+#webdesc{
+  margin-top: 0;
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  border-top: 7px solid grey;
+  padding-bottom: 30px;
+  transition: 0.5s;
+  margin-bottom: 0;
+  color: lightsalmon;
+  border-bottom-left-radius: 68px;
+  border-bottom-right-radius: 68px;
+}
+
+#webdesc:hover{
+  background-color: #e67000;
+  opacity: 1;
+  color: whitesmoke;
+}
+
+#main{
+  border: 7px solid gray;
+  border-radius: 70px;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-right: 70px;
+}
+
+#headline{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.courseholder{
+  margin-left: 150px;
+  border: 5px solid salmon;
+  border-radius: 50px;
+  margin-right: 150px;
+  margin-top: 30px;
+  transition: 0.7s;
+}
+
+.coursename{
+  margin-left: 50px;
+  font-size: 35px;
+  margin-right: 810px;
+}
+
+.coursedesc{
+  margin-left: 50px;
+  font-size: 25px;
+  color: darkgrey;
+}
+
+.courseholder:hover{
+  background-color: #e67000;
+  border: 5px solid darkslategrey;
+}
+
+.coursename:hover{
+  text-decoration: underline;
+}
+
+.bottomlinks{
+  text-decoration: none;
+  color: blue;
+  margin-left: 45px;
+  margin-right: 45px;
   
-  .buttons:hover{
-    background-color: cornflowerblue;
-    color: green;
-  }
-  
-  #buttonholder{
-    padding-left: 500px;
-    padding-right: 500px;
-    margin-bottom: 60px;
-  }
-  
-  .upcoming{
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-left: 50px;
-    color: lightblue;
-    text-align: left;
-  }
-  
-  .timeLeft{
-    font-size: 20px;
-    text-align: right;
-    padding-right: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .events{
-    border: 5px solid white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
-  }
-  
-  .events:hover{
-    background-color: darkgreen;
-  }
+  font-size: 25px;
+  transition: 0.6s;
+}
+
+#bottommenu{
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.bottomlinks:hover{
+  color: salmon;
+}
+
+#siteInfo{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#topPage{
+  margin-bottom: 60px;
+}
