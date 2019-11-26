@@ -150,7 +150,7 @@ body{
 }
 
 .courseholder:hover{
-  background-color: #e67000;
+  background-color: #b34700;
   border: 5px solid darkslategrey;
 }
 
@@ -185,4 +185,52 @@ body{
 
 #topPage{
   margin-bottom: 60px;
+}
+
+.algebra1{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: lightblue;
+  transition: 0.2s;
+}
+
+.linkscontainer{
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.algebra1:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.geometry{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: lightblue;
+  transition: 0.2s;
+}
+
+.precalculus{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: lightblue;
+  transition: 0.2s;
+}
+
+.geometry:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.precalculus:hover{
+  text-decoration: underline;
+  color: blue;
 }
