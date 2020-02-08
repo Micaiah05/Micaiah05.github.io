@@ -193,7 +193,7 @@ body{
   font-size: 20px;
   text-decoration: none;
   color: lightblue;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .linkscontainer{
@@ -204,7 +204,7 @@ body{
 
 .algebra1:hover{
   text-decoration: underline;
-  color: blue;
+  color: dodgerblue;
 }
 
 .geometry{
@@ -225,12 +225,26 @@ body{
   transition: 0.2s;
 }
 
+.calculus{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: lightblue;
+  transition: 0.2s;
+}
+
 .geometry:hover{
   text-decoration: underline;
-  color: blue;
+  color: dodgerblue;
 }
 
 .precalculus:hover{
   text-decoration: underline;
-  color: blue;
+  color: dodgerblue;
+}
+
+.calculus:hover{
+  text-decoration: underline;
+  color: dodgerblue;
 }
